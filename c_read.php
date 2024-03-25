@@ -35,8 +35,8 @@
                 <td>".$rows['name']."</td>
                 <td>".$rows['email']."</td>
                 <td>".$rows['password']."</td>
-                <td><a href = 'c_update.php?idd = ".$rows['id']."' class='btn btn-success'>Edit</a></td>
-                <td><a href = 'c_delete.php?idd = ".$rows['id']."' class='btn btn-danger'>Delete</a></td>
+                <td><a href = 'c_update.php?idd=".$rows['id']."' class='btn btn-success'>Edit</a></td>
+                <td><a href = 'c_delete.php?idd=".$rows['id']."' class='btn btn-danger'>Delete</a></td>
                 
                 </tr>";
             }
