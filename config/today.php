@@ -7,12 +7,12 @@ $dbName = "bushra";
 
   $conn = new mysqli($serverName , $userName , $password , $dbName);
 
-  if($conn == true){
-    echo"<br> connection successful";
-  }
-  else{
-    echo"<br> connection failed";
-  }
+  // if($conn == true){
+  //   echo"<br> connection successful";
+  // }
+  // else{
+  //   echo"<br> connection failed";
+  // }
 
 
 ?>
